@@ -1,0 +1,167 @@
+.acitve_img
+{
+  width: 100%;
+}
+page{
+  background-color: #F6F7FE;
+  padding-bottom: 30rpx;
+}
+.synopsis{
+  margin: 10rpx auto 10rpx;
+  background: #fff;
+  padding: 5%;
+}
+.element{
+  width: 10rpx;
+  height: 45rpx;
+  background: #619edc;
+}
+.title{
+  display: flex;
+  align-items: center;
+  padding-bottom: 15rpx;
+  border-bottom: 2rpx #ccc dotted;
+}
+.company{
+  margin:0 20rpx;
+}
+.profile{
+  color: #bfbfbf;
+}
+.content{
+  letter-spacing: 2rpx;
+  padding-left: 25rpx;
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx #ccc dotted;
+  color: #313131;
+}
+.else{
+  margin-top: 25rpx;
+}
+.vision_img{
+  width: 300rpx;
+  height: 300rpx;
+}
+.vision_content{
+  display: flex;
+  justify-content: center;
+}
+.customer_img{
+  width: 100rpx;
+  height: 100rpx;
+}
+button::after{
+  border: none;
+}
+.customer{
+  position: fixed;
+  bottom: 100rpx;
+  right: 50rpx;
+  display: flex;
+}
+button[plain]{
+  border: none;
+}
+
+/* .server{
+  display: inline-block;
+  text-align: center;
+}
+.server_title{
+  color: #fff;
+  padding: 5rpx 20rpx;
+  background: #619edc;
+  border-top-left-radius: 5rpx;
+  border-top-right-radius: 5rpx;
+}
+.server_content{
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 20rpx;
+  border: 2rpx solid #ccc;
+  border-top:none;
+  font-size: 25rpx;
+}*/
+ .server_img{
+  width: 60rpx;
+  height: 60rpx;
+} 
+/*
+.server_top{
+  border: 2rpx solid #ccc;
+  border-bottom: none;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.server{
+  display: flex;
+}
+.headline{
+  display: inline-block;
+}
+.server_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rpx;
+}
+.describe{
+  color:#666;
+  font-size: 26rpx;
+}
+.server{
+  display: flex;
+  /* align-items: center; */
+  padding: 25rpx 0;
+  width: 49%;
+  border-bottom: 2rpx solid #e9e9e9;
+}
+.detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:20rpx;
+}
+.area{
+  border-left:2rpx solid #e9e9e9; 
+  width: 44.5%;
+  padding-left: 40rpx;
+}
+.bottom{
+  border-bottom: none;
+}
+.advantage{
+  font-weight: 700;
+  font-size: 36rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.advantage_content{
+  display: flex;
+  justify-content: space-around;
+}
+.advantage_title{
+  font-weight: 600;
+  color: #619edc;
+  margin-bottom: 10rpx;
+  letter-spacing: 2rpx;
+}
+.advance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.division{
+  /* background: #ccc; */
+  border: 2rpx dashed #e0e0e0;
+}
+.advance_img{
+  width: 100%;
+  margin: 20rpx 0;
+}

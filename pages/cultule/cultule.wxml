@@ -1,0 +1,82 @@
+<image src="../../images/cultule/active_one.jpg" class="acitve_img" mode="widthFix"></image>
+<view class="synopsis">
+  <view class="title">
+    <view class="element"></view>
+    <text class="company">公司简介</text>
+    <text class="profile">company profile</text>
+  </view>
+  <view class="content">
+    广州市程速财务咨询有限公司经广州市工商局批准成立的专业工商代理公司，拥有优秀的人才和良好的政府关系，凭借多年的国内工商代理行业的实际经验，通过对政策法规的敏锐观察和判断以及严谨、细致、科学的管理，不仅能为客户提供快捷、周到、方便的服务，并能在企业管理的高度，为企业提供财税、营销、管理等各方面的咨询，为新企业的壮大发展提供有力的支持。
+  </view>
+</view>
+<view class="synopsis else">
+  <view class="title">
+    <view class="element"></view>
+    <text class="company">公司愿景</text>
+    <text class="profile">company vision</text>
+  </view>
+  <view class="content vision_content">
+    <!-- <image src="../../images/cultule/active_one.jpg" class="vision_img"></image> -->
+    <view>
+      <!-- 我公司拥有数十名高素质的税务、财务、会计师等专业成员，我们熟悉现行的税收法律、法规、税务系统、工商系统的办事规程；同时为您严格遵守商业秘密，提供税收策划，解答有关工商、税务方面的疑难问题，及时传达最新的企业信息，让您的公司在稳健，低成本的前提下轻松处理工商财税工作。 -->
+      我们本着“专业、快速、稳健、低成本为客户简化财税工作”的服务宗旨，随时为广大企业提供方便,高效,优质的代理记帐和公司注册、审计等服务，为企业节省经济资源,降低税务风险。</view>
+  </view>
+</view>
+<view class="synopsis else">
+  <view class="title" style="border:none">
+    <view class="element"></view>
+    <text class="company">所包含的服务</text>
+    <text class="profile">servers</text>
+  </view>
+  <view class="detail" style="margin-top:10rpx;">
+    <block wx:for="{{serverList}}" wx:key='{{item}}'>
+      <view class="server {{(index+1)%2 == 0 ? 'area' : ''}}" style="{{index == serverList.length-1||index == serverList.length-2 ? 'border-bottom:none' : ''}}">
+        <image src="{{item.src}}" class="server_img"></image>
+        <view class="server_title">
+          <view class="headline">{{item.title}}</view>
+          <view class="describe">
+            {{item.branch_1}}
+          </view>
+          <view class="describe"> {{item.branch_2}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+<view view class="synopsis else">
+  <view class="advantage">我们的优势</view>
+  <view class="advantage_content">
+    <view class="advance">
+      <text class="advantage_title">专业团队</text>
+      <view>全程专属人员服务</view>
+      <view>标准化迅速响应服务</view>
+      <view>我们有梦想有激情</view>
+    </view>
+    <view class="division"></view>
+    <view class="advance">
+      <text class="advantage_title">服务高效</text>
+      <view>随时与客户保持沟通</view>
+      <view>出现问题及时通知客户</view>
+      <view>客户满意度高达95%以上</view>
+    </view>
+  </view>
+  <image src="../../images/cultule/active_two.jpg" class="advance_img" mode="widthFix"></image>
+  <view class="advantage_content">
+    <view class="advance">
+      <text class="advantage_title">优惠省钱</text>
+      <view>价格透明实惠</view>
+      <view>确保高质量服务</view>
+      <view>服务流程全面展示</view>
+    </view>
+    <view class="division"></view>
+    <view class="advance">
+      <text class="advantage_title">信誉保障</text>
+      <view>服务全国各家企业</view>
+      <view>解决企业实际问题</view>
+      <view>客户说好才是真的好</view>
+    </view>
+  </view>
+</view>
+<button class="customer" plain="{{true}}" open-type="contact">
+  <image src="../../images/cultule/customer.png" class="customer_img" mode="widthFix"></image>
+</button>

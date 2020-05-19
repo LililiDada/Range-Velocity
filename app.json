@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cultule/cultule",
+    "pages/contact/contact",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "程速财税",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#619edc",
+    "color":"#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/bar/home.png",
+        "selectedIconPath": "images/bar/home_s.png"
+      },
+      {
+        "pagePath": "pages/cultule/cultule",
+        "text": "企业文化",
+        "iconPath": "images/bar/cultule.png",
+        "selectedIconPath": "images/bar/cultule_s.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "images/bar/about.png",
+        "selectedIconPath": "images/bar/about_s.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

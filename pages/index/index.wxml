@@ -1,0 +1,169 @@
+<image src="../../images/index.jpg" mode="widthFix" style="width: 100%;" class="company">
+</image>
+
+<view class="contain">
+  <view class="title">服务业务</view>
+  <view class="business">
+    <view wx:for="{{businessList}}" wx:key="item" class="one_business">
+      <image src="{{item.src}}" mode="widthFix" class="icon"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+  <view class="lead">
+    <image src="../../images/guide.png" class="guide" mode="widthFix"></image>
+  </view>
+</view>
+<view class="enroll">
+  <view class="verify">
+    <view class="caption">
+      <text>注册第</text>
+      <text class="number">1</text>
+      <text>步：</text>
+      <image src="../../images/left_colon.png" class="colon" mode="widthFix"></image>
+      <text class="text">公司核名</text>
+      <image src="../../images/right_colon.png" class="colon" mode="widthFix"></image>
+    </view>
+    <view class="standard">
+      <view class="form">公司名称形式</view>
+      <view>行政区划+字号+行业+组织形式</view>
+      <view class="form form_e">取名规范</view>
+      <view>1.不得出现"中国"等特殊含义用字</view>
+      <view>2.必须使用汉字,不得触犯驰名商标</view>
+      <view>3.不得已设立/已核准公司名称相同</view>
+      <!-- <view>*取名规范1:不得出现"中国"等特殊含义用字</view>
+      <view>*取名规范2:必须使用汉字,不得触犯驰名商标</view>
+      <view>*取名规范3:不得已设立/已核准公司名称相同</view> -->
+
+    </view>
+    <view class="tip">随着注册公司数量增加，很多名称已经不能使用了，点击在线核准名称</view>
+    <button class="contact" open-type="contact" bindcontact="contact">在线核名</button>
+    <!-- <button class="contact">在线核名</button> -->
+  </view>
+</view>
+<view class="separate"></view>
+<view class="verify steps">
+  <view class="caption">
+    <text>注册第</text>
+    <text class="number">2</text>
+    <text>步：</text>
+    <image src="../../images/left_colon.png" class="colon" mode="widthFix"></image>
+    <text class="text">经营范围确定</text>
+    <image src="../../images/right_colon.png" class="colon" mode="widthFix"></image>
+  </view>
+  <view class="tip">注册公司时，很多人填写的经营范围不够准确，要先确定经营范围，如：</view>
+  <view class="introduce">
+    <image class="introduce_img" src="../../images/service.jpg" mode="widthFix"></image>
+    <view class="introduce_text">
+      <text class="introduce_title">服务类:</text>
+      <text class="introduce_contain">餐饮管理、婚庆礼仪服务、资料翻译服务、快递服务、室内保洁服务、其他居民服务</text>
+    </view>
+  </view>
+  <view class="introduce">
+    <image class="introduce_img" src="../../images/project.jpg" mode="widthFix"></image>
+    <view class="introduce_text">
+      <text class="introduce_title">工程设计类:</text>
+      <text class="introduce_contain">建筑工程、市政工程、绿化工程、园林工程、室内装潢、建筑设计、景观设计、室内设计</text>
+    </view>
+  </view>
+  <button class="contact" open-type="contact">在线确定经营范围</button>
+</view>
+<view class="separate"></view>
+<view class="verify steps">
+  <view class="caption">
+    <text>注册第</text>
+    <text class="number">3</text>
+    <text>步：</text>
+    <image src="../../images/left_colon.png" class="colon" mode="widthFix"></image>
+    <text class="text">注册地址确认</text>
+    <image src="../../images/right_colon.png" class="colon" mode="widthFix"></image>
+  </view>
+  <image src="../../images/address.jpg" mode="widthFix" class="address"></image>
+  <view class="address">
+    <view class="actual">
+      <view class="address_one">一</view>
+      <text>拥有实际注册地址</text>
+      <view class="address_des">公司开展业务活动和处理公司事务的公司机构所在地，如住宅、租房、办公室、商品楼、厂房等等</view>
+    </view>
+    <view class="affiliate">
+      <view class="address_one">二</view>
+      <text>挂靠注册地址</text>
+      <view class="address_des">一般由署理注册公司提供合法的注册地址，如广州、深圳、佛山、惠州、东莞等等</view>
+    </view>
+  </view>
+  <button class="contact" open-type="contact">在线确定注册地址</button>
+</view>
+<view class="separate"></view>
+<view class="verify steps">
+  <view class="caption">
+    <text>注册第</text>
+    <text class="number">4</text>
+    <text>步：</text>
+    <image src="../../images/left_colon.png" class="colon" mode="widthFix"></image>
+    <text class="text">领取营业执照</text>
+    <image src="../../images/right_colon.png" class="colon" mode="widthFix"></image>
+  </view>
+  <view>
+    <view style="margin:20rpx 0;">完成公司注册后，您将领取全新的“五证合一”营业执照</view>
+    <image src="../../images/license.jpg" mode="widthFix" class="license"></image>
+    <view>公司注册办理完后您会拿到哪些材料</view>
+    <view class="material">
+      <view class="meterial_s">
+        <view class="meterial_sm">
+          <view class="address_one">Ⅰ</view>
+          <text class="description">营业执照副本</text>
+        </view>
+        <view class="meterial_sm">
+          <view class="address_one">Ⅲ</view>
+          <text class="description">企业公章</text>
+        </view>
+        <view>
+          <view class="address_one">Ⅴ</view>
+          <text class="description">法人代表章</text>
+        </view>
+      </view>
+      <view class="meterial_s">
+        <view class="meterial_sm">
+          <view class="address_one">Ⅱ</view>
+          <text class="description">公司章程</text>
+        </view>
+        <view class="meterial_sm">
+          <view class="address_one">Ⅳ</view>
+          <text class="description">财务章</text>
+        </view>
+        <view>
+          <view class="address_one">Ⅵ</view>
+          <text class="description">纳税人须知</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <button class="contact" open-type="contact">在线了解详情</button>
+</view>
+<view class="last"></view>
+<view class="about">
+  <image src="../../images/about.jpg"  class="about_img"></image>
+  <view class="about_contain">
+    <view class="contain_one">
+      <view class="phone_des">
+        <image src="../../images/phone.png" mode="widthFix" class="about_icon"></image>
+        <text>联系</text>
+        <text>电话</text>
+      </view>
+      <view class="phone_big">
+        <view bindtap="makephone" class="phone">18928803680</view>
+        <view bindtap="callphone" class="phone" style="margin:10rpx 0 0;">18928848309</view>
+      </view>
+    </view>
+    <view class="contain_two" bindtap="navigate">
+      <image src="../../images/address_icon.png" mode="widthFix" class="about_icon"></image>
+      地址：<text selectable='{{true}}'>广州市白云区三元里松柏东路13号鸿丰商贸城B座305B</text> 
+    </view>
+  </view>
+</view>
+<view class="manifesto">
+  <view>因为专业，值得信赖
+   <view>以诚信立业，以服务扬名</view> 
+  </view> 
+ 
+  <image src="../../images/trust.png" mode="widthFix" class="trust"></image>
+</view>

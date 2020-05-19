@@ -1,0 +1,60 @@
+<view class="total">
+  <image src="../../images/contact/picure2.png" class="total_img" mode="widthFix"></image>
+  <view class="total_intro">
+    <view style="display:flex;justify-content: center; align-items: center;">
+      <text class="title">广州总公司</text>
+    </view> 
+    <view class="address" bindtap="navigate">
+      <view>
+        <image src="../../images/contact/address.png" mode="widthFix" class="address_icon"></image>
+      </view>
+      <text style="margin-left:10rpx;">广州市白云区三元里松柏东街13号鸿丰商贸楼B栋305B</text>
+      <view>
+        <!-- style="display:flex;justify-content: center; align-items: center;" -->
+        <image src="../../images/contact/gps.png" mode="widthFix" class="address_icon"></image>
+      </view>
+    </view>
+    <view class="phone">
+      <image src="../../images/contact/phone.png" mode="widthFix" class="phone_icon"></image>
+      <view style="margin-left:20rpx;">
+        <view class="phone_number" bindtap="call">18928803680(刘小姐)</view>
+        <view bindtap="calliphone">18928848309(李小姐)</view>
+      </view>
+    </view>
+  </view> 
+</view>
+<view class="division"></view>
+<view class="points">
+  <image src="../../images/contact/picure1.png" class="total_img" mode="widthFix"></image>
+  <view class="total_intro">
+    <view style="display:flex;justify-content: center; align-items: center;">
+      <text class="title">佛山分公司</text>
+    </view>
+    <view class="address" bindtap="navigateTO">
+      <view>
+        <image src="../../images/contact/address.png" mode="widthFix" class="address_icon"></image>
+      </view>
+      <text style="margin-left:10rpx;">佛山市南海区大沥镇广佛新干线旁钟边工业区1号广网大楼三层314</text>
+      <view>
+        <!-- style="display:flex;justify-content: center; align-items: center;"  -->
+        <image src="../../images/contact/gps.png" mode="widthFix" class="address_icon"></image>
+      </view>
+    </view>
+    <view class="phone">
+      <image src="../../images/contact/phone.png" mode="widthFix" class="phone_icon"></image>
+      <view style="margin-left:20rpx;">
+        <view bindtap="callphone" class="phone_number">18928803685(刘先生)</view>
+        <view bindtap="calltelephone">13822140164(龚小姐)</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="division"></view>
+<!-- <view class="customer">   open-type="contact" bindcontact="contact"-->
+<button class="customer" open-type="contact">
+  <image src="../../images/contact/customer.png" class="customer_img" mode="widthFix"></image>
+  <text> 联系客服</text>
+  <image src="../../images/contact/left.png" mode="widthFix" class="customer_to"></image>
+</button>
+  
+<!-- </view> -->
