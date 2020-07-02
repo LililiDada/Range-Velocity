@@ -1,7 +1,7 @@
 # 程速小程序
 ![RangeVelocity](https://service.dashanwai.cn/public/RangeVelocity.png)
 ## 开发架构
-微信小程序
+原生微信小程序
 ## 项目描述
 一个外包项目，协同广州市程速财务咨询有限公司开发的一个公司介绍小程序
 ## 功能描述
